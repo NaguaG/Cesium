@@ -16,8 +16,8 @@ This is Materials Management component of Smart Construction Dashboard which all
 ---
 cd express/<br />
 npm install<br />
-npm install --save-dev jasmine
-npm install --save-dev supertest
+npm install --save-dev jasmine<br />
+npm install --save-dev supertest<br />
 npm start<br />
 
 ### Frontend
