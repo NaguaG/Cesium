@@ -1,0 +1,67 @@
+body {
+  background-color: #24242b;
+  color: white;
+}
+
+.color-info {
+  display: flex;
+  align-items: center;
+}
+
+.color-preview {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.color-input {
+  flex: 0 0 85%;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin-left: 0.5em;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"] {
+  text-align: right;
+}
+
+.no-materials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-icon {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.delete-icon {
+  display: inline;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.item-container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #2b364d;
+}
+
+.item-container:hover {
+  background-color: #2b364d;
+  cursor: pointer;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: column;
+}
